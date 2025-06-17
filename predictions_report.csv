@@ -1,0 +1,7 @@
+image_name,prediction,confidence_percent
+result1.png,Pneumonia,66.22
+result2.jpg,Pneumonia,63.92
+result_1.png,Pneumonia,73.59
+result_2.png,Pneumonia,72.64
+result_3.png,Pneumonia,77.57
+sample.jpg,Pneumonia,61.44
