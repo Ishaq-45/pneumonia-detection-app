@@ -58,7 +58,9 @@ history = model.fit(
 )
 
 # === 6. Save model ===
-model.save('pneumonia_model.h5')
+#model.save('pneumonia_model.h5')
+model.save("pneumonia_model", save_format="tf")  # ✅ saves folder format, not .h5
+
 print("✅ Model saved as pneumonia_model.h5")
 
 # === 7. Evaluate on test set ===

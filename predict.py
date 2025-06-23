@@ -70,3 +70,4 @@ with open(csv_filename, mode='w', newline='') as file:
 
 print(f"📁 All predictions saved to: {csv_filename}")
 print(f"📂 Processed images moved to: {processed_folder}")
+    
